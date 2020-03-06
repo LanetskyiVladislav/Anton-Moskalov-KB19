@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 245
+  Height = 166
+  Top = 426
+  Width = 367
+  BorderStyle = bsSingle
+  Caption = 'Завдання 1'
+  ClientHeight = 146
+  ClientWidth = 367
+  Menu = MainMenu1
+  Position = poDesktopCenter
+  LCLVersion = '2.0.4.0'
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 24
+    Width = 347
+    TabOrder = 0
+  end
+  object NomZan: TButton
+    Left = 8
+    Height = 25
+    Top = 80
+    Width = 168
+    Caption = 'Номер заняття'
+    OnClick = NomZanClick
+    TabOrder = 1
+  end
+  object RPlus: TButton
+    Left = 192
+    Height = 25
+    Top = 80
+    Width = 163
+    Caption = 'Речення+'
+    OnClick = RPlusClick
+    TabOrder = 2
+  end
+  object KolZn: TButton
+    Left = 88
+    Height = 25
+    Top = 112
+    Width = 195
+    Caption = 'Кількість пунктуаційних знаків'
+    OnClick = KolZnClick
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 23
+    Top = 56
+    Width = 347
+    Alignment = taCenter
+    AutoSize = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 170
+    Caption = 'Введіть символи для взаємодії:'
+    ParentColor = False
+  end
+  object MainMenu1: TMainMenu
+    left = 208
+    top = 48
+    object MenuItem1: TMenuItem
+      Caption = 'Про ПЗ.'
+      OnClick = MenuItem1Click
+    end
+  end
+end

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="lab1_task2_moskalev.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="62" Y="10"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="75"/>
+        <CursorPos X="252" Y="100"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="lab1_task2_unit2_moskalev.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="14" Y="36"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="unit1.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="101" Column="261" TopLine="76"/>
+      </Position1>
+      <Position2>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="102" Column="261" TopLine="77"/>
+      </Position2>
+      <Position3>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="103" Column="261" TopLine="78"/>
+      </Position3>
+      <Position4>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="104" Column="261" TopLine="79"/>
+      </Position4>
+      <Position5>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="103" Column="261" TopLine="78"/>
+      </Position5>
+      <Position6>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="102" Column="261" TopLine="77"/>
+      </Position6>
+      <Position7>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="101" Column="261" TopLine="76"/>
+      </Position7>
+      <Position8>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="100" Column="261" TopLine="75"/>
+      </Position8>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

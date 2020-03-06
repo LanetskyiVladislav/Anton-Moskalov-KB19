@@ -1,0 +1,55 @@
+object Form2: TForm2
+  Left = 702
+  Height = 244
+  Top = 411
+  Width = 388
+  BorderStyle = bsSingle
+  Caption = 'Про ПЗ.'
+  ClientHeight = 244
+  ClientWidth = 388
+  Position = poDesktopCenter
+  LCLVersion = '2.0.4.0'
+  object Label1: TLabel
+    Left = 1
+    Height = 85
+    Top = 128
+    Width = 387
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'ПЗ для взаємодії з текстом та'#13#10'визначення поточного навчального стану.'#13#10'Зроблене Москальовим А.В.'#13#10'У ВНЗ "ЦНТУ" м. Кропивницький.'#13#10'Розроблене у 2020 році.'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 1
+    Height = 112
+    Top = 8
+    Width = 387
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Для роботи з ПЗ допустимі три мови:'#13#10'Російська, англійська та українська.'#13#10'До службових символів відносяться наступні знаки:'#13#10'Крапка (.), кома (,) крапка з комою (;), двокрапка (:)'#13#10'знак оклику (!), знак питання (?), тире (-), прогалина ( )'#13#10'обидві дужки ( () ), лапки (").'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 288
+    Height = 25
+    Top = 208
+    Width = 75
+    Caption = 'Закрити'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end
