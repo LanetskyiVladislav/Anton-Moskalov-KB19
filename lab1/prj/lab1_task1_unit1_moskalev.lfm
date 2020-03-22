@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 245
+  Left = 1232
   Height = 166
-  Top = 426
+  Top = 498
   Width = 367
   BorderStyle = bsSingle
   Caption = 'Завдання 1'

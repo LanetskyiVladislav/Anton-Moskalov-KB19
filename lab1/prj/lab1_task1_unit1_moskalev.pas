@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  EditBtn, Menus, lab1_task1_unit2_moskalev;
+  EditBtn, Menus, lab1_task1_unit2_moskalev, lab1_task1_validator_moskalev;
 
 type
 
@@ -31,7 +31,6 @@ type
 
   end;
 
-const Znaks = ['.', ',', ';', '-', '?', '!', ':', ' ', '(', ')', '"'];
 var
   Form1: TForm1;
   TrueSymbols : string;
@@ -41,46 +40,35 @@ implementation
 
 { TForm1 }
 
-procedure TForm1.RPlusClick(Sender: TObject);
+procedure TForm1.RPlusClick(Sender: TObject);  // "Речення+"
 var
-  i1 : byte;
-  TStr : string[255];
+  i : byte;
+  TStr : string;
   curS : byte;
-  UncorrectS : boolean;
 begin
+  if edit1.text = '' then
+  begin label1.caption := 'Рядок пустий.'; exit; end;
+
   TStr := Edit1.Text;
-  UncorrectS := False;
-  for i1:=1 to Length(tstr) do
-  begin
-    if (pos(tstr[i1],TrueSymbols)>0)  then
-     begin
-      UncorrectS:=False;
-     end
-  else
-     begin
-      label1.Caption := 'Ви використали некоректний символ.'; UncorrectS := true; exit;
-     end;
-  end;
+  if CorrectSymb(TStr) = False then
+  begin label1.Caption := 'Ви використали некоректний символ.'; exit; end;
 
-
-if UncorrectS = false then
-  begin
   repeat
-  for i1 := 1 to 255 do
+  for i := 1 to 255 do
   begin
-  if tstr[i1] in Znaks then
-     begin curS := i1; break; end;
-   if i1 = 255 then
+  if SymvIsZnak(tstr[i])= true then
+     begin curS := i; break; end;
+   if i = 255 then
      curS := 255;
   end;
   if curS <> 255 then
     begin
-      for i1:=curS to 255 do
+      for i:=curS to 255 do
       begin
-       tstr[i1] := tstr[i1+1];
-       if tstr[i1] = #0 then
+       tstr[i] := tstr[i+1];
+       if tstr[i] = #0 then
          begin
-         tstr[i1+1] := #0;
+         tstr[i+1] := #0;
          break;
          end;
        end;
@@ -89,37 +77,24 @@ if UncorrectS = false then
 label1.Caption := TStr;
 edit1.text := #0;
 end;
-end;
+
 
 procedure TForm1.KolZnClick(Sender: TObject);
-
 var
-  i1, i2 : byte;
+  i : byte;
   tstr : string[255];
-  UncorrectS : boolean;
-
-
 begin
+if edit1.text = '' then
+begin label1.caption := 'Рядок пустий.'; exit; end;
+
 tstr := edit1.text;
-UncorrectS := False;
-
-for i1:=1 to Length(tstr) do
-begin
- if (pos(tstr[i1],TrueSymbols)>0)  then
- begin
-  UncorrectS:=False;
- end
-else
- begin
-  label1.Caption := 'Ви використали некоректний символ.'; UncorrectS := true; exit;
- end;
-end;
-if UncorrectS = false then
+  if CorrectSymb(TStr) = False then
+  begin label1.Caption := 'Ви використали некоректний символ.'; exit; end;
 begin
 Label1.Caption := '0';
-for i2:=1 to length(tstr) do
+for i:=1 to length(tstr) do
   begin
-   if tstr[i2] in Znaks then
+   if SymvIsZnak(tstr[i])= true then
    begin
    Label1.Caption := IntToStr(StrToInt(label1.caption)+1);
    end;
@@ -129,35 +104,16 @@ edit1.text := #0;
 end;
 end;
 
-procedure TForm1.MenuItem1Click(Sender: TObject);
-begin
- Form2.Show;
-end;
-
 procedure TForm1.NomZanClick(Sender: TObject);                                   // "Номер заняття"
 var
   CurTime : TDateTime;
-  i1 : byte;
   TimeEd : word;
-  tstr : string[5];
 begin
   CurTime := Now;
-  tstr := TimeToStr(CurTime);
-
+  TimeEd:=StrToInt(FormatDateTime('hhnn',CurTime));
   if (DayOfWeek(CurTime) = 1) or (DayOfWeek(CurTime) = 7) then
   begin label1.caption := 'Не навчальний день.'; exit; end;
-
-  for i1:=1 to 5 do
-  begin
-  if tstr[i1] = ':' then
-    begin
-    tstr[i1] := tstr[i1+1];
-    tstr[i1+1] := tstr[i1+2];
-    tstr[i1+2] := #0;
-    end;
-  end;
-  TimeEd := StrToInt(tstr);
-  if (TimeEd > 830) and (TimeEd < 950) then         //  8:30 - 9:50
+  if (TimeEd > 830) and (TimeEd < 950) then           //  8:30 - 9:50
   begin label1.caption := 'Перша пара.';  end;
   if (TimeEd > 950) and (TimeEd < 1000) then          //  9:50 - 10:00
   begin label1.caption := 'Перерва.';  end;
@@ -174,6 +130,12 @@ begin
   if (TimeEd > 1440) or (TimeEd < 830) then
   begin label1.caption := 'Не навчальний час.'; end;
 end;
+
+procedure TForm1.MenuItem1Click(Sender: TObject);
+begin
+ Form2.Show;
+end;
+
 
 begin
   TrueSymbols := 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzАаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯяЄєЇїІіҐґ.,:;"()?!- ';
