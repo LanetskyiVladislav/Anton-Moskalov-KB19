@@ -4,13 +4,13 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="6">
+    <Units Count="7">
       <Unit0>
         <Filename Value="lab1_task1_moskalev.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="28"/>
-        <UsageCount Value="34"/>
+        <CursorPos X="93" Y="10"/>
+        <UsageCount Value="36"/>
       </Unit0>
       <Unit1>
         <Filename Value="lab1_task1_unit1_moskalev.pas"/>
@@ -20,9 +20,12 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="lab1_task1_unit1_Moskalev"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos Y="3"/>
-        <UsageCount Value="34"/>
+        <TopLine Value="16"/>
+        <CursorPos Y="87"/>
+        <FoldState Value=" T3g0a012Z"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="lab1_task1_unit2_moskalev.pas"/>
@@ -30,35 +33,40 @@
         <ComponentName Value="Form2"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
+        <EditorIndex Value="1"/>
         <CursorPos X="15" Y="2"/>
-        <UsageCount Value="21"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
+        <Filename Value="lab1_task1_validator_moskalev.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="20" Y="28"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
         <Filename Value="X:\Универ\СП\Определение кода текста\code_of_letter.pas"/>
         <UnitName Value="Found_Text_Code"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
-      </Unit3>
-      <Unit4>
+      </Unit4>
+      <Unit5>
         <Filename Value="..\Задание 2\unit1.pas"/>
         <UnitName Value="Unit1"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="73"/>
         <CursorPos X="8" Y="101"/>
         <UsageCount Value="12"/>
-      </Unit4>
-      <Unit5>
+      </Unit5>
+      <Unit6>
         <Filename Value="project1.lpi"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="XML"/>
-      </Unit5>
+      </Unit6>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="-1"/>
-    </General>
     <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
