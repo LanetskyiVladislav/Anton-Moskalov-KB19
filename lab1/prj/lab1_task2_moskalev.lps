@@ -4,12 +4,11 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="4">
+    <Units Count="7">
       <Unit0>
         <Filename Value="lab1_task2_moskalev.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="62" Y="10"/>
+        <CursorPos X="11"/>
         <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -20,8 +19,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="75"/>
-        <CursorPos X="252" Y="100"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="41"/>
+        <CursorPos X="3" Y="72"/>
         <UsageCount Value="24"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -32,52 +32,122 @@
         <ComponentName Value="Form2"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="4"/>
-        <CursorPos X="14" Y="36"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="31"/>
         <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="13"/>
+        <CursorPos X="5" Y="50"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
         <Filename Value="unit1.lfm"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
-      </Unit3>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\Шевчук ЛР1\prj\validator_task2_shevchuk.pas"/>
+        <UnitName Value="validator_task2_Shevchuk"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="12"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="P:\Lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2893"/>
+        <CursorPos Y="2913"/>
+        <UsageCount Value="10"/>
+      </Unit6>
     </Units>
-    <JumpHistory Count="8" HistoryIndex="7">
+    <JumpHistory Count="20" HistoryIndex="19">
       <Position1>
-        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
-        <Caret Line="101" Column="261" TopLine="76"/>
+        <Filename Value="lab1_task2_moskalev.pas"/>
+        <Caret Line="10" Column="62"/>
       </Position1>
       <Position2>
         <Filename Value="lab1_task2_unit1_moskalev.pas"/>
-        <Caret Line="102" Column="261" TopLine="77"/>
+        <Caret Line="9" Column="66"/>
       </Position2>
       <Position3>
-        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
-        <Caret Line="103" Column="261" TopLine="78"/>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="48" Column="5" TopLine="12"/>
       </Position3>
       <Position4>
-        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
-        <Caret Line="104" Column="261" TopLine="79"/>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="45" Column="22" TopLine="12"/>
       </Position4>
       <Position5>
-        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
-        <Caret Line="103" Column="261" TopLine="78"/>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="49" Column="39" TopLine="11"/>
       </Position5>
       <Position6>
         <Filename Value="lab1_task2_unit1_moskalev.pas"/>
-        <Caret Line="102" Column="261" TopLine="77"/>
+        <Caret Line="71" Column="24" TopLine="39"/>
       </Position6>
       <Position7>
-        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
-        <Caret Line="101" Column="261" TopLine="76"/>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="12" Column="7"/>
       </Position7>
       <Position8>
-        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
-        <Caret Line="100" Column="261" TopLine="75"/>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="11" Column="9"/>
       </Position8>
+      <Position9>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="43" Column="26" TopLine="8"/>
+      </Position9>
+      <Position10>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="45" Column="23" TopLine="11"/>
+      </Position10>
+      <Position11>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="22" Column="26"/>
+      </Position11>
+      <Position12>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="51" Column="65" TopLine="31"/>
+      </Position12>
+      <Position13>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="52" Column="17" TopLine="32"/>
+      </Position13>
+      <Position14>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="9" Column="66"/>
+      </Position14>
+      <Position15>
+        <Filename Value="lab1_task2_moskalev.pas"/>
+        <Caret Line="10" Column="41"/>
+      </Position15>
+      <Position16>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="56" Column="3" TopLine="39"/>
+      </Position16>
+      <Position17>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="7" Column="48"/>
+      </Position17>
+      <Position18>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="69" Column="97" TopLine="43"/>
+      </Position18>
+      <Position19>
+        <Filename Value="lab1_task2_validator_moskalev.pas"/>
+        <Caret Line="50" Column="5" TopLine="13"/>
+      </Position19>
+      <Position20>
+        <Filename Value="lab1_task2_unit1_moskalev.pas"/>
+        <Caret Line="72" Column="5" TopLine="45"/>
+      </Position20>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
