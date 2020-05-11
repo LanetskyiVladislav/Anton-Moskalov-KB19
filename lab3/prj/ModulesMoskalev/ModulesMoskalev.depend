@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1514144182 source:x:\рабочий стол\москальов, лр2, мп\prj\modulesmoskalev\main.c
+
+1588434684 source:x:\рабочий стол\москальов, лр2, мп\prj\modulesmoskalev\modulesmoskalev.cpp
+	"ModulesMoskalev.h"
+	<math.h>
+
+1588432677 x:\рабочий стол\москальов, лр2, мп\prj\modulesmoskalev\modulesmoskalev.h
+
+1514144182 source:x:\рабочий стол\москальов, лр2, мп\prj\modulesmoskalev\main.cpp
+
+1514144182 source:x:\рабочий стол\москальов, лр3, мп\prj\modulesmoskalev\main.cpp
+
+1589197395 source:x:\рабочий стол\москальов, лр3, мп\prj\modulesmoskalev\modulesmoskalev.cpp
+	"ModulesMoskalev.h"
+	<cstdlib>
+	<math.h>
+	<string>
+
+1589197747 x:\рабочий стол\москальов, лр3, мп\prj\modulesmoskalev\modulesmoskalev.h
+	<string>
+
