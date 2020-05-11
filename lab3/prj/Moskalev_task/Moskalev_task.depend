@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1589213223 source:x:\рабочий стол\москальов, лр3, мп\prj\moskalev_task\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<sstream>
+	<ModulesMoskalev.h>
+	<stdio.h>
+
