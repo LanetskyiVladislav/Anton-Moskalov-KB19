@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1589193143 source:x:\рабочий стол\москальов, лр3, мп\prj\testdriver\testdriver\main.cpp
+	<iostream>
+	<list>
+
+1589208954 source:x:\рабочий стол\москальов, лр3, мп\prj\testdriver\main.cpp
+	<iostream>
+	<ModulesMoskalev.h>
+
